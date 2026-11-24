@@ -1,0 +1,7 @@
+adapter_id,library,implementation_status,execution_layer,admission_control,scheduling,fairness,retries,timeouts,reactive_backpressure
+A01,FlowGate,implemented,Native,Native,Native,Native,Native,Native,N/A
+A02,JDK ThreadPoolExecutor,implemented,Native,Composed,Composed,Composed,Unsupported,Composed,N/A
+A03,Resilience4j,planned,Not measured,Not measured,Not measured,Not measured,Not measured,Not measured,N/A
+A04,Netflix concurrency-limits,planned,Not measured,Native adaptive limit,Unsupported,Unsupported,Unsupported,Unsupported,N/A
+A05,Failsafe,planned,Composed,Unsupported,Unsupported,Unsupported,Native,Native,N/A
+A06,Project Reactor,planned,Native,Composed,Composed,Composed,Composed,Composed,Native
